@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>메인 페이지</title>
+	<style type="text/css">
+		a {
+			text-decoration:none;
+			color:black;
+			/*background: gray;*/
+		}
+
+		.menubar{
+			border:none;
+			border:0px;
+			margin:0px;
+			padding:0px;
+			font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+			font-size:14px;
+			font-weight:bold;
+		}
+
+		.menubar li{
+			float:left;
+			padding:0px;
+		}
+
+		.menubar ul{
+			/*background: rgb(109,109,109);*/
+			height:50px;
+			list-style:none;
+			margin:0;
+			padding:0;
+		}
+
+
+		.menubar li a {
+			/*background: rgb(109,109,109);*/
+			/*color:#cccccc;*/
+			display:block;
+			font-weight:normal;
+			line-height:50px;
+			margin:0px;
+			padding:0px 25px;
+			text-align:center;
+			text-decoration:none;
+		}
+
+		.menubar li a:hover {
+			/*background: gray;*/
+			color:red;
+		}
+
+		#l {
+			display:block;
+			font-weight:normal;
+			line-height:50px;
+			margin:0px;
+			text-align:center;
+			text-decoration:none;
+		}
+
+		#l:hover{
+			cursor: pointer;
+		}
+
+		*{
+			font-family: 'Nanum Gothic', sans-serif;
+		}
+	</style>
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic:700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="menubar">
+		<ul>
+			<li id="main"><a href="main.html">메인 페이지</a></li>
+			<li id="l">|</li>
+			<li id="page1"><a href="page1.html">유니클로</a></li>
+			<li id="l">|</li>
+			<li id="page2"><a href="page2.html">국가장학금</a></li>
+		</ul>
+	</div>
+	<hr>
+	<img src="media/uniqlo_logo.jpg" width="500" height="498" border="1px" />
+	<img src="media/scholarship.jpg" width="500" height="500"  />
+</body>
+</html>
